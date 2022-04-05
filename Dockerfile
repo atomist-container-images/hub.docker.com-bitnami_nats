@@ -1,12 +1,27 @@
-# Tags: latest, 2.7.4-debian-10-r20, 2.7.4, 2-debian-10, 2
+# Tags: latest, 2.7.4-debian-10-r25, 2.7.4, 2-debian-10, 2
 FROM bitnami/nats:latest
-FROM bitnami/nats:2.7.4-debian-10-r20
+FROM bitnami/nats:2.7.4-debian-10-r25
 FROM bitnami/nats:2.7.4
 FROM bitnami/nats:2-debian-10
 FROM bitnami/nats:2
 
 # Tags: _
 FROM bitnami/nats:_
+
+# Tags: 2.7.4-debian-10-r24
+FROM bitnami/nats:2.7.4-debian-10-r24
+
+# Tags: 2.7.4-debian-10-r23
+FROM bitnami/nats:2.7.4-debian-10-r23
+
+# Tags: 2.7.4-debian-10-r22
+FROM bitnami/nats:2.7.4-debian-10-r22
+
+# Tags: 2.7.4-debian-10-r21
+FROM bitnami/nats:2.7.4-debian-10-r21
+
+# Tags: 2.7.4-debian-10-r20
+FROM bitnami/nats:2.7.4-debian-10-r20
 
 # Tags: 2.7.4-debian-10-r19
 FROM bitnami/nats:2.7.4-debian-10-r19
@@ -83,18 +98,3 @@ FROM bitnami/nats:2.7.3-debian-10-r10
 
 # Tags: 2.7.3-debian-10-r9
 FROM bitnami/nats:2.7.3-debian-10-r9
-
-# Tags: 2.7.3-debian-10-r8
-FROM bitnami/nats:2.7.3-debian-10-r8
-
-# Tags: 2.7.3-debian-10-r7
-FROM bitnami/nats:2.7.3-debian-10-r7
-
-# Tags: 2.7.3-debian-10-r6
-FROM bitnami/nats:2.7.3-debian-10-r6
-
-# Tags: 2.7.3-debian-10-r5
-FROM bitnami/nats:2.7.3-debian-10-r5
-
-# Tags: 2.7.3-debian-10-r4
-FROM bitnami/nats:2.7.3-debian-10-r4
