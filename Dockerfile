@@ -93,6 +93,3 @@ FROM bitnami/nats:2.7.4-debian-10-r25
 
 # Tags: 2.7.4-debian-10-r24
 FROM bitnami/nats:2.7.4-debian-10-r24
-
-# Tags: 2.7.4-debian-10-r23
-FROM bitnami/nats:2.7.4-debian-10-r23
